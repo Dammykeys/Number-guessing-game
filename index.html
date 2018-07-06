@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game-start.html -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Number guessing game</title>
+    <link href="Numberguessinggamesyle.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Number guessing game</h1>
+
+    <p id="info">We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input type="number" id="guessField" class="guessField" placeholder="Enter a number value">
+      <input type="submit" value="Submit guess" class="guessSubmit">
+      <input type="reset" value="Reset game" class="gameReset">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+    <script src="Numberguessinggamescript.js"></script>
+</body>
+</html>
