@@ -9,7 +9,7 @@ html {
         margin: 0 auto;
         background-image: url("wallpaper.png");
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: 100% 1000px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
       h1{
